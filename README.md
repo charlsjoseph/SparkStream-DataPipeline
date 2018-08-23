@@ -2,9 +2,14 @@
 
 3 Data Pipeline approaches: 
 
-a. com.myprojects.datapipeline.sparkstreaming.StreamingPipe
-b. com.myprojects.datapipeline.sparkstreaming.StreamingPipe_withOutCheckpoint
-c. com.myprojects.datapipeline.sparkstreaming.StreamingPipe_Hybrid
+a. Using sparkCheckpoint
+com.myprojects.datapipeline.sparkstreaming.StreamingPipe
+
+b. Without Checkpoint
+com.myprojects.datapipeline.sparkstreaming.StreamingPipe_withOutCheckpoint
+
+c. Hybrid
+com.myprojects.datapipeline.sparkstreaming.StreamingPipe_Hybrid
 
 
 Used Confluent for Kafka:
