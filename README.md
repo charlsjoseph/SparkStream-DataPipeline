@@ -2,13 +2,16 @@
 
 3 Data Pipeline approaches: 
 
-a. Using sparkCheckpoint
+a) Using sparkCheckpoint
+
 com.myprojects.datapipeline.sparkstreaming.StreamingPipe
 
-b. Without Checkpoint
+b) Without Checkpoint
+
 com.myprojects.datapipeline.sparkstreaming.StreamingPipe_withOutCheckpoint
 
-c. Hybrid
+c) Hybrid
+
 com.myprojects.datapipeline.sparkstreaming.StreamingPipe_Hybrid
 
 
