@@ -11,14 +11,15 @@ Used Confluent for Kafka:
 
 Commands to start kafka broker, zookeeper and schema reistry: 
 
-charls@charls-VirtualBox:~$ confluent start schema-registry 
+confluent start schema-registry 
+
 Starting zookeeper
 zookeeper is [UP]
 Starting kafka
 kafka is [UP]
 Starting schema-registry
 schema-registry is [UP]
-charls@charls-VirtualBox:~$ 
+
 
 
 Commands to create and delete the topic:
